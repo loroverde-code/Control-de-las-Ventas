@@ -20,9 +20,9 @@ function entrar(){
 function menu(){
   app.innerHTML=`
   <div class="card">
-    <button class="primary" onclick="nuevaVenta()"> Nueva venta</button>
-    <button onclick="alert(analisisIA())"> Análisis</button>
-    <button onclick="exportarRespaldo()"> Respaldo</button>
+    <button class="primary" onclick="nuevaVenta()">Nueva venta</button>
+    <button onclick="alert(analisisIA())">Análisis</button>
+    <button onclick="exportarRespaldo()">Respaldo</button>
   </div>`;
 }
 
